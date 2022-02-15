@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#container{ 
+   display: flex;
+  justify-content:space-around;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+  background-image:url( "https://covid-19-apis.postman.com/static/covid19-image-2-0e295f09eccf0fa3f4778159cd065f5d.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+
+}
+#box{
+  box-shadow: 2px 2px 9px black;
+  height: 200px;
+  width: 300px;
+  margin: 15px 13px;
+  padding: 40px;
+  border-radius: 10px;
+  background: transparent;
+
+}
+h3{
+  
+  text-align: center;
+  color: white;
+}
+p{
+  text-align: center;
+  color: white;
+  font-size: large;
+}
+.row1{
+  display: flex;
+}
+ #box:hover {
+   box-shadow: 3px 3px 9px 4px blue;
+  color: red;
+ 
+}
+.timer{
+  color: white;
+  text-shadow: 2px 2px blue; 
+}
+.vineet{
+  color: white;
+  text-shadow: 2px 2px blue;
+}
+.vineet:hover{
+  box-shadow: 3px 3px 9px 4px blue;
+  color: red;
+}
+.timer:hover{
+  box-shadow: 3px 3px 9px 4px blue;
+  color: green;
+}
